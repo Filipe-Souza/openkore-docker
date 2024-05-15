@@ -63,5 +63,5 @@ docker run -it --env SERVER_BLOCK="${SERVER_CONFIG}" -v $PWD/.config/config.txt:
 | Property            | Type                          | Default value | Description                                                   |
 |---------------------|-------------------------------|---------------|---------------------------------------------------------------|
 | SERVER_BLOCK        | Environment variable/Argument |               | Allows inserting a server block into OpenKore configuration   |
-| ENABLE_ALL_PLUGINS  | Argument                      |               | Changes OpenKore configuration to load all plugins            |
-| OPENKORE_VER_COMMIT | Argument                      |1edc50f32460846e3a9d9ea58a523fb631b1ab6d               | The commit hash to checkout after cloning OpenKore repository |
+| ENABLE_ALL_PLUGINS  | Environment variable/Argument |               | Changes OpenKore configuration to load all plugins            |
+| OPENKORE_VER_COMMIT | Argument                      |1edc50f32460846e3a9d9ea58a523fb631b1ab6d| The commit hash to checkout after cloning OpenKore repository |

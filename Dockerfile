@@ -21,7 +21,7 @@ RUN apk add bash
 
 WORKDIR /opt/openkore
 
-COPY openkore/plugins/automap/automap.pl /opt/openkore/plugins/automap/automap.pl
+COPY openkore/plugins/ /opt/openkore/plugins
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 
 RUN chmod +x /docker-entrypoint.sh
