@@ -13,7 +13,9 @@ This repo includes a OpenKore plugin that allow the bots to walk randomly throug
 You should know how to configure and get a OpenKore client running. If not, I suggest going into the [project repository](https://github.com/OpenKore/openkore)
 and setting up your working configuration.
 
-### Build the image
+You can also add OpenKore plugins into the [openkore/plugins](./openkore/plugins) directory.
+
+### Building the image
 
 First you're going need the get your tables/servers.txt configuration block and attribute it to a shell environment variable, example from a rAthena server configuration:
 
